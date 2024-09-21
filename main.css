@@ -1,0 +1,161 @@
+﻿@import url('css2');
+
+@font-face {
+    font-family: 'New Amsterdam';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtp7CMi93T_dFUYw.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'New Amsterdam';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtp76Mi93T_dE.woff2) format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'New Amsterdam', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141027; /* Цвет фона */
+    background-image: url('bot.png'); /* Путь к фону */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Стили для маленьких экранов (мобильные устройства) */
+@media (max-width: 767px) {
+    #indicator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55vw;
+        width: 55vw;
+        position: relative;
+    }
+
+    #svg-wrapper {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #overlay {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+    }
+
+    h1 {
+        color: white; /* Цвет для слова "wait" */
+        letter-spacing: 2px; /* Отступ между буквами */
+        font-size: 8vw; /* Увеличьте размер текста для мобильных */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        color: greenyellow; /* Цвет для слова "take" */
+        letter-spacing: 1px; /* Меньший отступ для подзаголовка */
+        font-size: 4vw; /* Увеличьте размер текста для мобильных */
+        position: absolute;
+        bottom: 5%; /* Позиция подзаголовка */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Стили для больших экранов (ПК и планшеты) */
+@media (min-width: 768px) {
+    #indicator {
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+    }
+
+    #svg-wrapper {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #overlay {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+    }
+
+    h1 {
+        font-size: 4vw; /* Подберите размер для десктопа */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; /* Цвет для слова "wait" */
+    }
+
+    h2 {
+        font-size: 2vw; /* Подберите размер для десктопа */
+        position: absolute;
+        bottom: 5%; /* Позиция подзаголовка */
+        left: 50%;
+        transform: translateX(-50%);
+        color: greenyellow; /* Цвет для слова "take" */
+    }
+}
+
+/* Анимации */
+@keyframes threeDots {
+    0%, 100% { content: ''; }
+    25% { content: '.'; }
+    50% { content: '..'; }
+    75% { content: '...'; }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.state-wait #svg-wrapper {
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.state-take #svg-wrapper {
+    animation: flicker 1.5s linear infinite;
+}

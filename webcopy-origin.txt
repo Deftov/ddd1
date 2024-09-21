@@ -1,0 +1,36 @@
+Uri: https://botwaittake-sec6.vercel.app/
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\index.htm
+Content Type: text/html
+
+Uri: https://botwaittake-sec6.vercel.app/bot.png
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\bot.png
+Content Type: image/png
+
+Uri: https://botwaittake-sec6.vercel.app/circle.svg
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\circle.svg
+Content Type: image/svg+xml
+
+Uri: https://botwaittake-sec6.vercel.app/main.css
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\main.css
+Content Type: text/css
+
+Uri: https://botwaittake-sec6.vercel.app/script.js
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\script.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=New+Amsterdam:wght@400;700&display=swap
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtl7k.ttf
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\s\newamsterdam\v1\YA9Vr02Y5lucHqUlbEe51kBtl7k.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtp76Mi93T_dE.woff2
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\s\newamsterdam\v1\YA9Vr02Y5lucHqUlbEe51kBtp76Mi93T_dE.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtp7CMi93T_dFUYw.woff2
+File Name: C:\Downloaded Web Sites\botwaittake-sec6.vercel.app\s\newamsterdam\v1\YA9Vr02Y5lucHqUlbEe51kBtp7CMi93T_dFUYw.woff2
+Content Type: font/woff2
+

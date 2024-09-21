@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'New Amsterdam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtl7k.ttf) format('truetype');
+}
